@@ -1,42 +1,143 @@
-<input>
-<br>
-<br>
-<input type="color" name="" id="">
-<input type="date" name="" id="">
-<br>
-<form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form .personal label {
+
+            display:block
+        }
+        
+
+    </style>
+  <style>
+    table{
+        border:2px solid black;
+        border-collapse: collapse;
+    }
+    td{
+        border:2px solid black;
+        padding: 10px;
+        text-align: justify;
+    }
+    th{
+        border: 2px solid black;
+        padding: 10px;
+        text-align: justify;
+    }
+  </style>
+
+</head>
+<body>
+    <header>
+        <main>
+            
+            <form >
+                <fieldset class="personal">
+                <legend>Personal Information</legend>
+                <label for="Name"> name</label>
+                <input type="name" placeholder="enter your email">
+               
+
+                <label for="email">email</label>
+                <input type="email" placeholder="enter your email">
+                
+
+                <label for="password">password</label>
+                <input type="password" placeholder="enter your password">
+                </fieldset>
+                <fieldset>
+                    <legend>pitha</legend>
+                    <input type="radio" name="pitha" id="vapa">
+                    <label for="vapa">vapa</label>
+
+                    <input type="radio" name="pitha" id="ruti">
+                    <label for="ruti">ruti</label>
+
+                    <input type="radio" name="pitha" id="gand">
+                    <label for="gand">gand</label>
+
+</fieldset>
+                <fieldset class="gost">
+                
+                    <legend>Goat</legend>
+                    <input type="radio" name="Goat" id="MESSI">
+                    <label for="MESSI">MESSI</label>
+
+                    <input type="radio" name="Goat" id="RONALDO">
+                    <label for="RONALDO">RONALDO</label>
+
+                    <input type="radio" name="Goat" id="PLAY">
+                    <label for="PLAY">PLAY</label>
+                </fieldset>
+               <fieldset>
+                <legend>Discription</legend>
+                <textarea name="Discription" id="Discription" cols="49" rows="10"></textarea>
+               </fieldset>
+               <input type="submit" value="submit">
+               <input type="reset" value="clear">
+                
+            </form>
+            <section>
+                <h2>friendship</h2>
+                <table>
+                    <tabl-caption>friendship</tabl-caption>
+                    <thead>
+                        <tr>
+                            
+                            <th>
+                                name
+                            </th>
+                            <th>
+                                name
+                            </th>
+                            <th>
+                                name
+                            </th>
+                            <th>
+                                name
+                            </th>
+                            <th>age</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>jubayer</td>
+                            <td>sonet</td>
+                            <td>imran</td>
+                            <td>saddam</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>alif</td>
+                            <td>kamal</td>
+                            <td>rahim</td>
+                            <td>karim</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>abul</td>
+                            <td>babul</td>
+                            <td>cabul</td>
+                            <td>dabul</td>
+                            <td>21</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td colspan="4">total friend 12</td>
+                        <td>age 19,21,20</td>
+                        
+                    </tfoot>
+                </table>
+            </section>
+        </main>
+    </header>
     
-    <label >Name</label>
-    <input type="text" placeholder="your name">
-    <br>
-    <br>
-    <label >Email</label>
-    <input type="email" placeholder="enter your email">
-<br>
-<br>
-<label >Password</label>
-<input type="password" placeholder="enter your password">
-<br>
-<br>
-<label >Number</label>
-<input type="number" placeholder="enter your number">
-<br>
-<br>
-<label>Date</label>
-<input type="date" placeholder="enter date">
-<br>
-<br>
-<input type="submit" value="Submit">
-<input type="reset" value="Clear">
-<br>
-<select>
-    <option value="student">student</option>
-    <option value="professinal">professional</option>
-    <option value="bekar">bekar</option>
-</select>
-
-</form>
-
+</body>
+</html>
 
 
 
